@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Food App for Mobile</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="app">
+    <header class="header">
+      <div class="status-bar">
+        <img class="status-bar__img" src="img/status-bar.png" alt="status-bar">
+      </div>
+      <div class="header-wrap">
+        <div class="menu">
+          <a class="menu__btn" href="#">
+            <img class="menu__img" src="img/hamburger.svg" alt="menu button">
+          </a>
+        </div>
+        <div class="contorls">
+
+        </div>
+        <button class="controls__btn controls__btn--left controls__btn--active">DISHES</button>
+        <button class="controls__btn controls__btn--right">PLACES</button>
+      </div>
+    </header>
+    <main class="main">
+      <section class="content">
+        <div class="product-card">
+          <figure>
+            <img class="product-card__img" src="img/photo.png" alt="product" width="671" height="586">
+          </figure>
+
+          <h2 class="product-card__title">Red Bean with Vanilla Pudding</h2>
+
+          <span class="product-card__date">22 JAN 2015</span>
+          <div class="rating">
+            <a class="rating__link rating__link--orange" href="#">
+              <span class="rating__icon">
+                <img  class="rating__img" src="img/star-icon.svg" alt="">
+              </span>88</a>
+            <a class="rating__link rating__link--pink" href="#">
+              <span class="rating__icon">
+                <img  class="rating__img" src="img/love-icon.svg" alt="">
+              </span>26</a>
+            <a class="rating__link rating__link--blue" href="#">
+              <span class="rating__icon">
+                <img  class="rating__img" src="img/comment-icon.svg" alt="">
+              </span>57</a>
+          </div>
+        </div>
+
+        <span class="page-number">4 of 23</span>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="icons">
+        <a class="icons__link active" href="#">
+          <img class="icons__img" src="img/timer.svg" alt="">
+        </a>
+        <a class="icons__link" href="#">
+          <img class="icons__img" src="img/star.svg" alt="">
+        </a>
+        <a class="icons__link" href="#">
+          <img class="icons__img" src="img/heart.svg" alt="">
+        </a>
+        <a class="icons__link" href="#">
+          <img class="icons__img" src="img/loupe.png" alt="">
+        </a>
+      </div>
+    </footer>
+  </div>
+  <script src="http://localhost:35729/livereload.js"></script>
+</body>
+</html>
